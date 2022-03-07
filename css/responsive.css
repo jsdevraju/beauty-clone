@@ -45,6 +45,9 @@
     p.sub_title {
         font-size: 0.8em;
     }
+    .d-flex.align-items-center {
+        margin: auto 0;
+    }
 }
 
 /* Mobile */
