@@ -90,6 +90,9 @@ img{
     margin-bottom: 5px;
     color: #fff;
 }
+.d-flex.align-items-center {
+    margin: auto;
+}
 /* Navbar Styles */
 .header{
     position: absolute;
