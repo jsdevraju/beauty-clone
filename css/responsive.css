@@ -1,0 +1,57 @@
+
+/* Tablate */
+@media (max-width:768px){
+    .nav_menu{
+        display: block;
+    }
+    .close_menu{
+        display: flex;
+    }
+    .leftMenu {
+        flex-direction: column;
+        position: absolute;
+        top: 0px;
+        right: -1000px;
+        width: 330px;
+        background: #423e42;
+        height: 100vh;
+        transition: var(--transition);
+    }
+    .leftMenu li{
+        margin-top: 1.5em !important;
+    }
+    .leftMenu.active{
+        right: 0px;
+    }
+    .home_content h1 {
+        font-size: 2em;
+    }
+    
+    .home_content p {
+        margin-top: 1em !important;
+    }
+    
+    .home_content {padding-top: 6em;text-align: center;}
+    
+    .features h1 {
+        font-size: 2em;
+        line-height: 35px;
+    }
+    
+    .title {
+        font-size: 1.8em;
+    }
+    
+    p.sub_title {
+        font-size: 0.8em;
+    }
+}
+
+/* Mobile */
+@media (max-width:520px){
+    .post_content .app_btn {
+        margin-top: 0.5em;
+        padding: 0.4em 1em;
+        font-size: 0.8em;
+    }
+}
